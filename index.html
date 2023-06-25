@@ -1,0 +1,103 @@
+<!-- HOMEPAGE -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>LANDING-PAGE</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <img src="https://randomuser.me/api/portraits/men/74.jpg" alt="user" />
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index2.html">About</a></li>
+            <li><a href="index3.html">Job-Portal</a></li>
+            <li><a href="index4.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <button class="toggle" id="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+        <h1>Landing Page</h1>
+        <p>
+            A landing page is a web page specifically designed to convert visitors into leads or customers by encouraging them to take a specific action, such as making a purchase or filling out a form. It typically includes a compelling headline, a clear call-to-action, key benefits, visuals, and trust indicators.
+        </p>
+        <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <div class="container">
+        <img src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" />
+        <h2>What is this landing page about?</h2>
+        <p>
+            The content and purpose of a landing page can vary greatly depending on the specific campaign or goal it is designed for. In a very short answer, a landing page is about persuading visitors to take a desired action, such as buying a product, signing up for a service, or providing their contact information.
+        </p>
+        <p>
+            A landing page is a single web page focused on convincing visitors to take a specific action, such as making a purchase, subscribing to a newsletter, or filling out a form. Its purpose is to convert visitors into leads or customers by providing targeted information and a clear call-to-action.
+        </p>
+
+        <h2>Tell Me More</h2>
+
+        <p>
+            A landing page is a concise and focused web page that aims to engage and convert visitors. It presents a compelling offer or message, highlights the benefits, and provides a clear call-to-action. Its design and content are optimized to guide visitors towards taking a specific action, such as making a purchase, subscribing, or requesting more information. The goal is to maximize conversions and achieve the desired outcome for the business or campaign.
+        </p>
+
+        <h2>Benefits</h2>
+        <ul>
+            <li>Lifetime Access</li>
+            <li>30 Day Money Back</li>
+            <li>Tailored Customer Support</li>
+        </ul>
+
+        <p>
+            In short, landing pages drive conversions, capture leads, communicate effectively, improve ROI, offer testing and optimization opportunities, enhance user experience, and provide valuable tracking and analytics capabilities.
+        </p>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+            <div class="modal-header">
+                <h3>Sign Up</h3>
+            </div>
+            <div class="modal-content">
+                <p>Register with us to get offers, support and more</p>
+                <form class="modal-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter Name" class="form-input" />
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter Email" class="form-input" />
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter Password" class="form-input" />
+                    </div>
+                    <div>
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" id="password2" placeholder="Confirm Password" class="form-input" />
+                    </div>
+                    <input type="submit" value="Submit" class="submit-btn" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
